@@ -1,0 +1,35 @@
+html {
+    font-size: 10px;
+}
+body {
+    font-style: Helvetica;
+    background-color: hsl(300, 98%, 68%);
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+    color: black;
+}
+
+form#survey-form{
+    text-align: left;
+    display: block;
+    background-color: rgb(240, 149, 149);
+    border-color: rgb(5, 5, 5);
+    border: 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10%;
+    font-size: 1.5rem;
+}
+
+#textarea {
+    width: 500px;
+}
+
+#submit {
+    width: 400px;
+    background-color: rgb(236, 12, 12);
+    color: white;
+    padding: 10px;
+}

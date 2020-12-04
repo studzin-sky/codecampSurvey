@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <link rel='stylesheet' href='style.css'>
+    </head>
+    <body>
+        <h1 id='title'> Clean Air Survey </h1>
+        <p id='description'>Take a minute to fill this survey about the most important thing - clean air!</p>
+        <form id='survey-form'>
+            <label id='name-label' for='name'>Name: </label> <br>
+            <input type='text' id='name' name='name' placeholder='Name' required> <br>
+            <label id='email-label' for='email'>E-mail: </label> <br>
+            <input type="email" id="email" name="email" placeholder='E-mail'
+  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required> <br>
+            <label id='number-label' for='number'>Choose Your favourite number (1-7)</label> <br>
+            <input type='number' id='number' name='number' pattern="[0-9]" min='1' max='7' placeholder='Number'> <br>
+            <label id='dropdown-label' for='dropdown'>How can you save the planet?</label><br>
+            <select id='dropdown' name='dropdown'> 
+                <option value='Eco_power'>Eco Power</option>
+                <option value='Less_animal_products'>Less Animal Products</option>
+                <option value='More_trees'>More Trees</option>
+                <option value='More_knowledge'>More Knowledge</option>
+            </select>
+            <p>What type of energy is the best?</p>
+            <input type='radio' name='energy' id='coal' value='coal' checked>
+            <label for='coal'>Coal</label> <br>
+            <input type='radio' name='energy' id='wind' value='wind'>
+            <label for='wind'>Wind</label><br>
+            <input type='radio' name='energy' id='atom' value='atom'>
+            <label for='atom'>Atom</label><br>
+            <p>Choose few:</p>
+            <input type='checkbox' name='few' value='Sun' id='sun' checked>
+            <label for='sun'>Sun</label><br>
+            <input type='checkbox' name='few' value='Earth' id='earth'>
+            <label for='earth'>Earth</label><br>
+            <input type='checkbox' name='few' value='moon' id='moon'>
+            <label for='moon'>Moon</label><br>
+            <input type='checkbox' name='few' value='mars' id='mars'>
+            <label for='mars'>Mars</label><br><br>
+            <label for='textarea'>Write what you didn't like:</label><br>
+            <textarea id='textarea' name='textarea' rows='5' cols='50'>
+                Just do it!
+            </textarea> <br>
+            <input type='submit' id='submit' name='submit' value='SUBMIT!'>
+        </form>
+    </body>
+</html>
